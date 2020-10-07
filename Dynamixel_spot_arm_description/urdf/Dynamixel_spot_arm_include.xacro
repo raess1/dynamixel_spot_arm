@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
-    <xacro:macro name="spot_arm" params="base_frame x y z" >
+    <xacro:macro name="dynamixel_arm" params="base_frame x y z" >
         <material name="black"><color rgba="0.15 0.15 0.15 1.0" /></material>
 
         <xacro:include filename="$(find Dynamixel_spot_arm_description)/urdf/materials.xacro" />
